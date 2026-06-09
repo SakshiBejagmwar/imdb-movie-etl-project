@@ -78,65 +78,33 @@
 
 # \---
 
-# 
-
 # \## Day 3
 
 # 
 
 # \### Completed
 
-# 
+# \- Created MySQL database
 
-# \* Created ETL transformation notebook
+# \- Created imdb\_movies table
 
-# \* Validated BR-01 Duplicate Movie Handling
+# \- Saved DDL script
 
-# \* Verified duplicate movies count = 0
+# \- Loaded cleaned dataset into MySQL
 
-# \* Implemented BR-02 Missing Movie ID handling
-
-# \* Implemented BR-03 Missing Rating handling
-
-# \* Implemented BR-04 Missing Director and Lead Actor handling
-
-# \* Generated cleaned dataset
-
-# \* Created ETL summary report
-
-# 
-
-# \### Validation Results
-
-# 
-
-# \* movie\_id missing values = 0
-
-# \* rating missing values = 0
-
-# \* director missing values = 0
-
-# \* lead\_actor missing values = 0
+# \- Executed validation queries
 
 # 
 
 # \### Output
 
-# 
-
-# \* Generated cleaned dataset for MySQL loading
+# \- Clean dataset successfully loaded into MySQL
 
 # 
 
 # \### Next Steps
 
-# 
+# \- SQL analytics queries
 
-# \* Create MySQL DDL
-
-# \* Load cleaned data into MySQL
-
-# \* Perform SQL analytics
-
-# 
+# \- Matplotlib dashboards
 

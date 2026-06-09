@@ -1,256 +1,254 @@
-# \# IMDB ETL Project Progress
+###### \# IMDB ETL Project Progress
 
-# 
+###### 
 
-# \## Project Setup
+###### \## Project Setup
 
-# 
+###### 
 
-# \### Completed
+###### \### Completed
 
-# 
+###### 
 
-# \* Created GitHub repository
+###### \* Created GitHub repository
 
-# \* Initialized Git repository
+###### \* Initialized Git repository
 
-# \* Created project folder structure
+###### \* Created project folder structure
 
-# \* Reviewed business requirements and dashboard objectives
+###### \* Reviewed business requirements and dashboard objectives
 
-# 
+###### 
 
-# \---
+###### \---
 
-# 
+###### 
 
-# \## Data Profiling
+###### \## Data Profiling
 
-# 
+###### 
 
-# \### Completed
+###### \### Completed
 
-# 
+###### 
 
-# \* Loaded IMDB dataset
+###### \* Loaded IMDB dataset
 
-# \* Performed exploratory data analysis
+###### \* Performed exploratory data analysis
 
-# \* Analyzed dataset structure and data types
+###### \* Analyzed dataset structure and data types
 
-# \* Identified missing values and data quality issues
+###### \* Identified missing values and data quality issues
 
-# \* Generated dataset analysis report
+###### \* Generated dataset analysis report
 
-# 
+###### 
 
-# \### Key Findings
+###### \### Key Findings
 
-# 
+###### 
 
-# \* Missing movie\_id values
+###### \* Missing movie\_id values
 
-# \* Missing ratings
+###### \* Missing ratings
 
-# \* Missing director and lead actor values
+###### \* Missing director and lead actor values
 
-# \* Missing budget, gross revenue, and release year values
+###### \* Missing budget, gross revenue, and release year values
 
-# 
+###### 
 
-# \---
+###### \---
 
-# 
+###### 
 
-# \## ETL Transformations
+###### \## ETL Transformations
 
-# 
+###### 
 
-# \### Completed
+###### \### Completed
 
-# 
+###### 
 
-# \* Validated duplicate movie records using title and release\_year
+###### \* Validated duplicate movie records using title and release\_year
 
-# \* Generated surrogate keys for missing movie\_id values
+###### \* Generated surrogate keys for missing movie\_id values
 
-# \* Imputed missing ratings using genre-wise average ratings
+###### \* Imputed missing ratings using genre-wise average ratings
 
-# \* Replaced missing director and lead actor values with 'Unknown'
+###### \* Replaced missing director and lead actor values with 'Unknown'
 
-# \* Generated cleaned dataset
+###### \* Generated cleaned dataset
 
-# \* Created ETL summary report
+###### \* Created ETL summary report
 
-# 
+###### 
 
-# \### Output
+###### \### Output
 
-# 
+###### 
 
-# \* Cleaned dataset ready for database loading
+###### \* Cleaned dataset ready for database loading
 
-# 
+###### 
 
-# \---
+###### \---
 
-# 
+###### 
 
-# \## Database Implementation
+###### \## Database Implementation
 
-# 
+###### 
 
-# \### Completed
+###### \### Completed
 
-# 
+###### 
 
-# \* Connected Python to MySQL
+###### \* Connected Python to MySQL
 
-# \* Created imdb\_etl database
+###### \* Created imdb\_etl database
 
-# \* Created imdb\_movies table using DDL script
+###### \* Created imdb\_movies table using DDL script
 
-# \* Loaded cleaned dataset into MySQL
+###### \* Loaded cleaned dataset into MySQL
 
-# \* Executed validation queries
+###### \* Executed validation queries
 
-# \* Verified successful data load
+###### \* Verified successful data load
 
-# 
+###### 
 
-# \### Output
+###### \### Output
 
-# 
+###### 
 
-# \* Clean dataset successfully stored in MySQL database
+###### \* Clean dataset successfully stored in MySQL database
 
-# 
+###### 
 
-# \---
+###### \---
 
-# 
+###### 
 
-# \## SQL Analytics
+###### \## SQL Analytics
 
-# 
+###### 
 
-# \### Completed
+###### \### Completed
 
-# 
+###### 
 
-# \* Developed analytics queries for business requirements
+###### \* Developed analytics queries for business requirements
 
-# \* Created analytics\_queries.sql
+###### \* Created analytics\_queries.sql
 
-# \* Generated datasets for dashboard visualizations
+###### \* Generated datasets for dashboard visualizations
 
-# 
+###### 
 
-# \### Analytics Covered
+###### \### Analytics Covered
 
-# 
+###### 
 
-# \* Top grossing movies analysis
+###### \* Top grossing movies analysis
 
-# \* Genre rating analysis
+###### \* Genre rating analysis
 
-# \* Director performance analysis
+###### \* Director performance analysis
 
-# \* Budget vs gross analysis
+###### \* Budget vs gross analysis
 
-# \* Genre profitability analysis
+###### \* Genre profitability analysis
 
-# 
+###### 
 
-# \---
+###### \---
 
-# 
+###### 
 
-# \## Dashboard Development
+###### \## Dashboard Development
 
-# 
+###### 
 
-# \### Completed
+###### \### Completed
 
-# 
+###### 
 
-# \* Created Top Grossing Movies dashboard
+###### \* Created Top Grossing Movies dashboard
 
-# \* Created Genre Rating Distribution dashboard
+###### \* Created Genre Rating Distribution dashboard
 
-# \* Created Top Directors dashboard
+###### \* Created Top Directors dashboard
 
-# \* Created Budget vs Gross Correlation dashboard
+###### \* Created Budget vs Gross Correlation dashboard
 
-# \* Created Most Profitable Genre dashboard
+###### \* Created Most Profitable Genre dashboard
 
-# 
+###### 
 
-# \### Output Files
+###### \### Output Files
 
-# 
+###### 
 
-# \* top\_grossing\_movies.png
+###### \* top\_grossing\_movies.png
 
-# \* rating\_distribution.png
+###### \* rating\_distribution.png
 
-# \* top\_directors.png
+###### \* top\_directors.png
 
-# \* budget\_vs\_gross.png
+###### \* budget\_vs\_gross.png
 
-# \* profitable\_genre.png
+###### \* profitable\_genre.png
 
-# 
+###### 
 
-# \---
+###### \---
 
-# 
+###### 
 
-# \## Project Status
+###### \## Project Status
 
-# 
+###### 
 
-# \### Completed Deliverables
+###### \### Completed Deliverables
 
-# 
+###### 
 
-# \* Data Profiling
+###### \* Data Profiling
 
-# \* ETL Transformations
+###### \* ETL Transformations
 
-# \* Clean Dataset Generation
+###### \* Clean Dataset Generation
 
-# \* MySQL Database Loading
+###### \* MySQL Database Loading
 
-# \* SQL Analytics
+###### \* SQL Analytics
 
-# \* Matplotlib Dashboards
+###### \* Matplotlib Dashboards
 
-# \* Documentation
+###### \* Documentation
 
-# \* GitHub Version Control
+###### \* GitHub Version Control
 
-# 
+###### 
 
-# \### Final Outcome
+###### \### Final Outcome
 
-# 
+###### 
 
-# Successfully built an end-to-end ETL pipeline for the IMDB Movie Dataset:
+###### Successfully built an end-to-end ETL pipeline for the IMDB Movie Dataset:
 
-# 
+###### 
 
-# CSV (Dirty Data)
+###### CSV (Dirty Data)
 
-# → Python ETL (Pandas)
+###### → Python ETL (Pandas)
 
-# → Clean Dataset
+###### → Clean Dataset
 
-# → MySQL Database
+###### → MySQL Database
 
-# → SQL Analytics
+###### → SQL Analytics
 
-# → Matplotlib Dashboards
-
-
+###### → Matplotlib Dashboards
 

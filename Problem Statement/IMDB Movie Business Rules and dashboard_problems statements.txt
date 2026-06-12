@@ -1,0 +1,65 @@
+
+1. build ETL Pipeline 
+
+CSV files (dirty data)
+        ↓
+Python ETL (Pandas)
+  - Deduplication
+  - Null handling
+  - Business rules
+        ↓
+MySQL clean tables (DDL + constraints)
+        ↓
+SQL analytics + Matplotlib dashboards
+
+
+
+IMDB Movie Dataset – Business Rules (ETL Transformations) to be implemented using python pandas 
+
+These rules govern data cleaning, transformation, aggregation, validation, and analytics.
+
+🧹 1. Data Cleaning Business Rules
+
+BR-01: Duplicate Movie Handling
+
+Rule: A movie is considered duplicate if title + release_year is repeated.
+
+Action:
+
+Keep the record with highest rating
+
+If ratings are equal, keep the one with highest gross
+
+BR-02: Missing Movie ID
+
+Rule: movie_id must be unique and non-null.
+
+Action:
+
+Auto-generate a surrogate key during ETL if missing.
+
+BR-03: Missing Rating
+
+Rule: Ratings must be between 0 and 10.
+
+Action:
+
+Replace NULL ratings with genre-wise average rating.
+
+BR-04: Missing Director / Actor
+
+Rule: Director and lead actor are mandatory descriptive attributes.
+
+Action:
+
+Replace NULL values with 'Unknown'.
+
+---------------------------------
+
+Dashboard Problem Statements(Matplotlib):
+
+1. Identify Top 10 highest grossing movies by year.
+2. Show rating distribution across genres.
+3. Find Top 5 directors by average movie rating.
+4. Analyze budget vs gross correlation.
+5. Identify most profitable genre.
